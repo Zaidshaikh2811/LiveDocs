@@ -1,9 +1,15 @@
-import { Editor } from '@/components/editor/Editor'
+
+import CollaborativeRoom from '@/components/CollaborativeRoom'
 import React from 'react'
 
 const Document = () => {
     return (
-        <Editor />
+        <main className='flex w-full flex-col items-center'>
+            <CollaborativeRoom
+
+            />
+
+        </main>
     )
 }
 
